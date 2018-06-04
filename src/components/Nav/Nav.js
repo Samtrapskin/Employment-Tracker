@@ -6,15 +6,19 @@ const Nav = () => (
     <div>
       <ul>
         <li>
-          <Link to="/user">
+        <a className="topnav a.active" href="/table">Input Table</a>
+
+          
+        </li>
+        <li>
+        <Link to="/home">
             User Home
           </Link>
         </li>
         <li>
-          <Link to="/info">
-            Info Page
-          </Link>
+          
         </li>
+      
       </ul>
     </div>
   </div>

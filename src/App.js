@@ -11,6 +11,8 @@ import LoginPage from './components/LoginPage/LoginPage';
 import RegisterPage from './components/RegisterPage/RegisterPage';
 import UserPage from './components/UserPage/UserPage';
 import InfoPage from './components/InfoPage/InfoPage';
+import EmploymentTable from './components/EmploymentTable/EmploymentTable';
+
 
 import './styles/main.css';
 
@@ -25,8 +27,8 @@ const App = () => (
           component={LoginPage}
         />
         <Route
-          path="/register"
-          component={RegisterPage}
+          path="/table"
+          component={EmploymentTable}
         />
         <Route
           path="/user"
