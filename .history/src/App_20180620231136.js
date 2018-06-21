@@ -5,39 +5,34 @@ import {
   Redirect,
   Switch,
 } from 'react-router-dom';
+import './styles/main.css';
 
 import Header from './components/Header/Header';
-import LoginPage from './components/LoginPage/LoginPage';
-import RegisterPage from './components/RegisterPage/RegisterPage';
-import UserPage from './components/UserPage/UserPage';
-import InfoPage from './components/InfoPage/InfoPage';
 import EmploymentTable from './components/EmploymentTable/EmploymentTable';
+import InputForm from './components/InputForms/CompanyNameForm';
 
 
-import './styles/main.css';
 
 const App = () => (
   <div>
-    <Header title="To whom I applied" />
+    <Header className title="To whom I have applied" />
     <Router>
       <Switch>
         <Redirect exact from="/" to="/home" />
         <Route
           path="/home"
-          component={LoginPage}
+          component={EmploymentTable}
         />
+        
         <Route
           path="/table"
           component={EmploymentTable}
         />
-        <Route
-          path="/user"
-          component={UserPage}
+         <Route
+          path="/input"
+          component={InputForm}
         />
-        <Route
-          path="/info"
-          component={InfoPage}
-        />
+       
         {/* OTHERWISE (no path!) */}
         <Route render={() => <h1>404</h1>} />
 

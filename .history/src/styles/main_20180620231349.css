@@ -1,5 +1,5 @@
 html {
-    background-color: #223A5E
+    background-color: black
 }
 
 body {
@@ -84,7 +84,4 @@ li a:hover {
 }
 #header{
     color: black;
-}
-.MuiTableRow-root-30 {
-    background-color: lightgray
 }

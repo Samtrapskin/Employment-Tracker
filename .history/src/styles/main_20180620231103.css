@@ -1,7 +1,3 @@
-html {
-    background-color: #223A5E
-}
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -82,9 +78,6 @@ li a:hover {
     text-decoration: underline;
     color: #eee;
 }
-#header{
-    color: black;
-}
-.MuiTableRow-root-30 {
-    background-color: lightgray
+Header{
+    color: 
 }

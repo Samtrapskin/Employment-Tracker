@@ -24,6 +24,7 @@ form {
     margin: 20px auto;
     padding: 25px;
     border-radius: 2px;
+    color: wh
 }
 
 input {
@@ -84,7 +85,4 @@ li a:hover {
 }
 #header{
     color: black;
-}
-.MuiTableRow-root-30 {
-    background-color: lightgray
 }
